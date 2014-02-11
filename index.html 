@@ -28,22 +28,38 @@
 
 	</nav>
 	
-	  <div class="wrapper">
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
-        <header class="hero-unit">
-          <h1>Twitter&rsquo;s Bootstrap with Ryan Fait&rsquo;s Sticky Footer and Aalaap Ghag&rsquo;s Responsive Padding Fix</h1>
-          <p>It's really <strong>not</strong> that hard, y&rsquo;know. Check out the source code and <abbr title="Cascading Style Sheets">CSS</abbr> of this web page for how to do it yourself.</p>
-        </header>
-      </div>
-      <div class="push"><!--//--></div>
-    </div> <!-- .wrapper -->
- 
-    <footer>
-      <div class="container">
-        <p>Put together in less than five minutes by <a href="http://www.martinbean.co.uk/" rel="author">Martin Bean</a>. Uses <a href="http://twitter.github.com/bootstrap/" rel="external">Twitter Bootstrap</a> and <a href="http://ryanfait.com/sticky-footer/" rel="external">Ryan Fait&rsquo;s Sticky Footer</a> and <a href="#">Aalaap Ghag&rsquo;s Responsive Padding Fix</a>.</p>
-      </div>
-    </footer>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Resonote</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#calendar">Calendar</a></li>
+            <li><a href="studio.html">Studio</a></li>
+            <li><a href="mobile_app_tips.html">Using on-device resources</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Logistics <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+            
+              </ul>
+            </li>
+            <li><a href="index.html#calendar">Submit work</a></li>
+          </ul>
 
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://piazza.com/ucsd/winter2014/cogs120/home">Questions(Piazza forum)</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 
