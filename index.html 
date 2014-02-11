@@ -23,9 +23,26 @@
 
 
 <body>
-
+	
+	  <div class="wrapper">
+      <div class="container">
+        <header class="hero-unit">
+          <h1>Twitter&rsquo;s Bootstrap with Ryan Fait&rsquo;s Sticky Footer and Aalaap Ghag&rsquo;s Responsive Padding Fix</h1>
+          <p>It's really <strong>not</strong> that hard, y&rsquo;know. Check out the source code and <abbr title="Cascading Style Sheets">CSS</abbr> of this web page for how to do it yourself.</p>
+        </header>
+      </div>
+      <div class="push"><!--//--></div>
+    </div> <!-- .wrapper -->
+ 
+    <footer>
+      <div class="container">
+        <p>Put together in less than five minutes by <a href="http://www.martinbean.co.uk/" rel="author">Martin Bean</a>. Uses <a href="http://twitter.github.com/bootstrap/" rel="external">Twitter Bootstrap</a> and <a href="http://ryanfait.com/sticky-footer/" rel="external">Ryan Fait&rsquo;s Sticky Footer</a> and <a href="#">Aalaap Ghag&rsquo;s Responsive Padding Fix</a>.</p>
+      </div>
+    </footer>
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
 
 </body> 
 </html>
